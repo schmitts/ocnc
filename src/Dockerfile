@@ -30,6 +30,9 @@ RUN apt install -y build-essential \
     python3-pip        \
     python3-scipy      \
     wget               \  
+    vim                \  
+    emacs              \  
+    ipython3           \  
     cmake libboost-all-dev pkg-config libopenblas-dev \
     nest
 RUN git clone --recursive https://github.com/CNS-OIST/STEPS.git
