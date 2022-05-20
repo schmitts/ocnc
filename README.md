@@ -5,7 +5,7 @@ This repository provides Docker image with pre-compiled computational neuroscien
 Download and install Docker Desktop [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/). For Mac users, please note that Docker provides different installers for Intel and Apple silicon cpu.
 
 ## Fetch and use the OCNC docker image
-1. start the Docker Desktop application.
+1. Start the Docker Desktop application.
 2. Open a Terminal/Command prompt/PowerShell.
 3. In the Terminal, prepare a directory for storing your exercise files, and `cd` to this directory. e.g.:
     ```
@@ -29,7 +29,7 @@ Download and install Docker Desktop [https://www.docker.com/products/docker-desk
 
     ![terminal](images/3.png)
 
-7. In the `LXTerminal`, `cd` to `\work`.
+7. In the `LXTerminal`, `cd` to `/work`.
     ```
     cd /work
     ```
@@ -49,15 +49,15 @@ Download and install Docker Desktop [https://www.docker.com/products/docker-desk
             ```
             import nest
             ```
-        * STEPS[http://steps.sourceforge.net/](http://steps.sourceforge.net/)
+        * STEPS [http://steps.sourceforge.net/](http://steps.sourceforge.net/)
             ```
             import steps
             ```
-        * Brian2[https://brian2.readthedocs.io/en/stable/](https://brian2.readthedocs.io/en/stable/)
+        * Brian2 [https://brian2.readthedocs.io/en/stable/](https://brian2.readthedocs.io/en/stable/)
             ```
             import brian2
             ```
-        * Pystan [https://pystan.readthedocs.io/en/latest/](https://pystan.readthedocs.io/en/latest/)
+        * PyStan [https://pystan.readthedocs.io/en/latest/](https://pystan.readthedocs.io/en/latest/)
             ```
             import stan
             ```
